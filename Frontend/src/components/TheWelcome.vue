@@ -15,7 +15,8 @@ import { Icon } from '@iconify/vue'
         <span class="text-amber-400">gold</span> ?!
       </h2>
       <h3 class="pt-4">What does it look like</h3>
-      <video>Video how it works</video>
+      <div class="p-4">Video how it works here</div>
+      <video></video>
     </div>
     <div class="flex justify-center py-4">
       <button

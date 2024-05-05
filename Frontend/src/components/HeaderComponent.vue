@@ -5,12 +5,12 @@ import { RouterLink } from 'vue-router'
 <template>
   <header class="header">
     <div class="flex justify-center pt-4">
-      <div class="md:max-w-5xl w-3/4 max-w-xl">
-        <nav class="md:text-xl text-lg flex justify-between items-center">
+      <div class="max-w-5xl w-3/4">
+        <nav class="md:text-lg text-md flex justify-between items-center">
           <div class="flex">
             <RouterLink class="" to="/">Home</RouterLink>
             <div class="border-l-2 border-b-pink-200 mx-2"></div>
-            <RouterLink to="/profile">Wallet</RouterLink>
+            <RouterLink to="/wallet">Wallet</RouterLink>
           </div>
           <div>
             <RouterLink class="" to="/login">Login</RouterLink>
