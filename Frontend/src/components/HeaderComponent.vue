@@ -16,8 +16,8 @@ import { RouterLink } from 'vue-router'
             <RouterLink class="" to="/login">Login</RouterLink>
           </div>
         </nav>
-        <hr class="border-t-2 border-b-pink-200 my-2 w-full" />
       </div>
     </div>
+    <hr class="border-t-2 border-b-pink-200 my-2 w-full" />
   </header>
 </template>

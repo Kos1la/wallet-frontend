@@ -4,12 +4,12 @@
     <div class="max-w-5xl w-3/4 mx-auto py-8 px-4 sm:px-6 lg:px-8">
       <div class="flex flex-wrap justify-between text-center">
         <div class="w-full sm:w-auto mb-4 sm:mb-0">
-          <h3 class="text-md font-semibold mb-2 md:text-xl">Fotter Column 1</h3>
-          <p class="text-sm md:text-lg">Ideological inspirer and their links</p>
+          <h3 class="text-md font-semibold mb-2 md:text-lg">Fotter Column 1</h3>
+          <p class="text-sm md:text-md">Ideological inspirer and their links</p>
         </div>
         <div class="w-full sm:w-auto">
-          <h3 class="text-md font-semibold mb-2 md:text-xl">Fotter Column 2</h3>
-          <p class="text-sm md:text-lg">Some content for column 2</p>
+          <h3 class="text-md font-semibold mb-2 md:text-lg">Fotter Column 2</h3>
+          <p class="text-sm md:text-md">Some content for column 2</p>
         </div>
       </div>
 

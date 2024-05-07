@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { Icon } from '@iconify/vue'
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
@@ -23,13 +24,13 @@ import { Icon } from '@iconify/vue'
         class="flex items-center py-2 px-4 bg-purple-500 hover:bg-pink-500 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out mr-4"
       >
         <Icon icon="mdi:wallet-bifold-outline" class="m-1" :before="true" />
-        Wallet
+        <RouterLink to="/wallet">Wallet</RouterLink>
       </button>
       <button
         class="flex items-center py-2 px-4 bg-purple-500 hover:bg-pink-500 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out"
       >
         <Icon icon="mdi:telegram" class="mr-1" :before="true" />
-        Contact me
+        <a href="https://t.me/Kos1lin" target="_blank">Contact me</a>
       </button>
     </div>
   </main>
